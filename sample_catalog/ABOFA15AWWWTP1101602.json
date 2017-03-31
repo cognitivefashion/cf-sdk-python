@@ -1,0 +1,91 @@
+{
+ "color": [
+  "multi"
+ ], 
+ "taxonomy": "women;trending-brands;abof", 
+ "age_group": [
+  "teenager", 
+  "adult"
+ ], 
+ "currency": "INR", 
+ "images": {
+  "1": {
+   "camera_focus": "UNK", 
+   "pose": "front", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWTP1101602/Front_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWTP1101602_1_front_UNK.jpg"
+  }, 
+  "3": {
+   "camera_focus": "UNK", 
+   "pose": "right", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWTP1101602/Right_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWTP1101602_3_right_UNK.jpg"
+  }, 
+  "2": {
+   "camera_focus": "UNK", 
+   "pose": "left", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWTP1101602/Left_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWTP1101602_2_left_UNK.jpg"
+  }, 
+  "5": {
+   "camera_focus": "UNK", 
+   "pose": "back", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWTP1101602/Back_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWTP1101602_5_back_UNK.jpg"
+  }, 
+  "4": {
+   "camera_focus": "detail", 
+   "pose": "UNK", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWTP1101602/Detail_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWTP1101602_4_UNK_detail.jpg"
+  }, 
+  "7": {
+   "camera_focus": "full", 
+   "pose": "front", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWTP1101602/Look_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWTP1101602_7_front_full.jpg"
+  }, 
+  "6": {
+   "camera_focus": "detail", 
+   "pose": "UNK", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWTP1101602/Detail_2_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWTP1101602_6_UNK_detail.jpg"
+  }
+ }, 
+ "available_sizes": [
+  "S", 
+  "M", 
+  "L", 
+  "XL"
+ ], 
+ "style_tip": "Create an urban street style by clubbing this top with a pair of denim shorts and boots. Complete the look with a pair of hoop earrings.", 
+ "id": "ABOFA15AWWWTP1101602", 
+ "category": "tops", 
+ "fabric": [
+  "polyester"
+ ], 
+ "pattern": [
+  "printed", 
+  "print"
+ ], 
+ "sale_percentage": 40.0, 
+ "season": "UNK", 
+ "sale_price": 777.0, 
+ "brand": "abof", 
+ "description": "Multicolored woven printed top, has a V-neck with short zip closure on the front, long sleeves with button cuffs, yoke on the back with binding and inverted box pleat below, curved hemline", 
+ "price": 1295.0, 
+ "occasion": "UNK", 
+ "date": "2016-10-12", 
+ "name": "abof women multicolor printed top", 
+ "url": "http://www.abof.com/product/ABOFA15AWWWTP1101602-abof-Women-Multicolor-Printed-Top", 
+ "gender": "female", 
+ "attributes": "UNK", 
+ "out_of_stock": "no"
+}

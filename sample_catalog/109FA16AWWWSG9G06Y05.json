@@ -1,0 +1,68 @@
+{
+ "color": [
+  "dark grey"
+ ], 
+ "taxonomy": "women;new-in;clothing", 
+ "age_group": [
+  "teenager", 
+  "adult"
+ ], 
+ "currency": "INR", 
+ "images": {
+  "1": {
+   "camera_focus": "UNK", 
+   "pose": "front", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/109FA16AWWWSG9G06Y05/Front_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "109FA16AWWWSG9G06Y05_1_front_UNK.jpg"
+  }, 
+  "3": {
+   "camera_focus": "detail", 
+   "pose": "UNK", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/109FA16AWWWSG9G06Y05/Detail_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "109FA16AWWWSG9G06Y05_3_UNK_detail.jpg"
+  }, 
+  "2": {
+   "camera_focus": "UNK", 
+   "pose": "right", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/109FA16AWWWSG9G06Y05/Right_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "109FA16AWWWSG9G06Y05_2_right_UNK.jpg"
+  }, 
+  "4": {
+   "camera_focus": "UNK", 
+   "pose": "back", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/109FA16AWWWSG9G06Y05/Back_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "109FA16AWWWSG9G06Y05_4_back_UNK.jpg"
+  }
+ }, 
+ "available_sizes": [
+  "XS", 
+  "S", 
+  "M", 
+  "L", 
+  "XL"
+ ], 
+ "style_tip": "Layer this shrug over a lace crop top for a laid-back look. Slip into a pair of pair of blue jeggings and peep-toes to spruce up the look.", 
+ "id": "109FA16AWWWSG9G06Y05", 
+ "category": "shrugs", 
+ "fabric": [
+  "70% polyester, 30% rayon"
+ ], 
+ "pattern": "UNK", 
+ "sale_percentage": 0.0, 
+ "season": "UNK", 
+ "sale_price": 2699.0, 
+ "brand": "109f", 
+ "description": "Grey shrug, has an open front with stylized lapel, long sleeves", 
+ "price": 2699.0, 
+ "occasion": "UNK", 
+ "date": "2016-10-12", 
+ "name": "109f women grey regular fit shrug", 
+ "url": "http://www.abof.com/product/109FA16AWWWSG9G06Y05-109F-Women-Grey-Regular-Fit-Shrug", 
+ "gender": "female", 
+ "attributes": "UNK", 
+ "out_of_stock": "no"
+}

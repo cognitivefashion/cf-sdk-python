@@ -1,0 +1,88 @@
+{
+ "color": [
+  "navy blue"
+ ], 
+ "taxonomy": "women;trending-brands;abof", 
+ "age_group": [
+  "teenager", 
+  "adult"
+ ], 
+ "currency": "INR", 
+ "images": {
+  "1": {
+   "camera_focus": "UNK", 
+   "pose": "front", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWSW1149401/Front_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWSW1149401_1_front_UNK.jpg"
+  }, 
+  "3": {
+   "camera_focus": "UNK", 
+   "pose": "right", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWSW1149401/Right_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWSW1149401_3_right_UNK.jpg"
+  }, 
+  "2": {
+   "camera_focus": "UNK", 
+   "pose": "left", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWSW1149401/Left_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWSW1149401_2_left_UNK.jpg"
+  }, 
+  "5": {
+   "camera_focus": "UNK", 
+   "pose": "back", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWSW1149401/Back_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWSW1149401_5_back_UNK.jpg"
+  }, 
+  "4": {
+   "camera_focus": "detail", 
+   "pose": "UNK", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWSW1149401/Detail_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWSW1149401_4_UNK_detail.jpg"
+  }, 
+  "7": {
+   "camera_focus": "full", 
+   "pose": "front", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWSW1149401/Look_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWSW1149401_7_front_full.jpg"
+  }, 
+  "6": {
+   "camera_focus": "detail", 
+   "pose": "UNK", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AWWWSW1149401/Detail_2_Large.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AWWWSW1149401_6_UNK_detail.jpg"
+  }
+ }, 
+ "available_sizes": [
+  "S", 
+  "M", 
+  "L", 
+  "XL"
+ ], 
+ "style_tip": "Team this sweater with a pair of blue jeans and causal shoes. You can also club it with a pair of denim shorts for a classy appeal.", 
+ "id": "ABOFA15AWWWSW1149401", 
+ "category": "sweaters", 
+ "fabric": [
+  "100% cotton"
+ ], 
+ "pattern": "UNK", 
+ "sale_percentage": 40.0, 
+ "season": "UNK", 
+ "sale_price": 777.0, 
+ "brand": "abof", 
+ "description": "Navy blue sweater in a patterned knit, has a round neck, long raglan sleeves, ribbed along the neckline, sleeve hems and hemline", 
+ "price": 1295.0, 
+ "occasion": "UNK", 
+ "date": "2016-10-12", 
+ "name": "abof women navy regular fit sweater", 
+ "url": "http://www.abof.com/product/ABOFA15AWWWSW1149401-abof-Women-Navy-Regular-Fit-Sweater", 
+ "gender": "female", 
+ "attributes": "UNK", 
+ "out_of_stock": "no"
+}
