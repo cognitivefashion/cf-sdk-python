@@ -10,7 +10,7 @@ Once you sign up you will get a custom url and an API key.
 
 ## API slate documentation
 
-http://irlbxvm137.irl.in.ibm.com:4567/
+https://cognitivefashion.github.io/slate/
 
 ## Getting started
 
