@@ -7,6 +7,7 @@ import os
 import json
 import requests
 from urlparse import urljoin
+from pprint import pprint
 
 from props import *
 
@@ -27,4 +28,4 @@ url = urljoin(api_gateway_url,api_endpoint)
 response = requests.delete(url,headers=headers)
 
 print response.status_code
-print response.json()
+pprint(response.json())

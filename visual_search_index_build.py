@@ -7,6 +7,7 @@ import os
 import json
 import requests
 from urlparse import urljoin
+from pprint import pprint
 
 from props import *
 
@@ -31,5 +32,5 @@ params['ignore_detail_images'] = 'true'
 response = requests.post(url,headers=headers,params=params)
 
 print response.status_code
-print response.json()
+pprint(response.json())
 

@@ -9,6 +9,7 @@ import os
 import json
 import requests
 from urlparse import urljoin
+from pprint import pprint
 
 from props import *
 
@@ -38,7 +39,7 @@ response = requests.post(url,
                         data=open('test_image_1.jpeg','rb'))
 
 print response.status_code
-print response.json()
+pprint(response.json())
 
 # List the relevant images
 for product in response.json()['products']:

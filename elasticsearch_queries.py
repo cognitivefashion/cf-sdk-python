@@ -7,6 +7,7 @@ import os
 import json
 import requests
 from urlparse import urljoin
+from pprint import pprint
 
 from props import *
 
@@ -30,5 +31,5 @@ params['max_number_of_backoffs'] = 5
 response = requests.get(url,headers=headers,params=params)
 
 print response.status_code
-print response.json()
+pprint(response.json())
 

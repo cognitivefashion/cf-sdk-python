@@ -1,4 +1,5 @@
 .DS_Store
 *.pyc
 .ipynb_checkpoints
+props_local.py
 

@@ -7,6 +7,7 @@ import os
 import json
 import requests
 from urlparse import urljoin
+from pprint import pprint
 
 from props import *
 
@@ -44,5 +45,5 @@ for filename in json_filenames:
                              params=params)
     
     print response.status_code
-    print response.json()
+    pprint(response.json())
 

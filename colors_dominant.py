@@ -7,6 +7,7 @@ import os
 import json
 import requests
 from urlparse import urljoin
+from pprint import pprint
 
 from props import *
 
@@ -26,4 +27,4 @@ headers['Content-Type'] = 'image/jpeg'
 response = requests.post(url,headers=headers,data=open('test_image_2.jpeg','rb'))
 
 print response.status_code
-print response.json()
+pprint(response.json())
