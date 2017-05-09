@@ -37,7 +37,8 @@ print response.status_code
 pprint(response.json())
 
 # Get more info about the relevant results
-for id in response.json()['ids']:
+for product in response.json()['products']:
+    id = product['id']
     api_endpoint = '/v1/catalog/%s/products/%s'%(catalog_name,id)
     url = urljoin(api_gateway_url,api_endpoint)
     response = requests.get(url,headers=headers)
