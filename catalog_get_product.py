@@ -19,7 +19,7 @@ api_gateway_url = props['api_gateway_url']
 headers = {'X-Api-Key': props['X-Api-Key']}
 
 # catalog name
-catalog_name = 'sample_catalog'
+catalog_name = props['catalog_name']
 
 # product id
 id = '20DRA16FWCWFT9010970'

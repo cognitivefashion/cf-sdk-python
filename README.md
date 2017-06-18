@@ -16,6 +16,8 @@ https://cognitivefashion.github.io/slate/
 
 Make changes to `props.py` with your url and API key.
 
+You can also change the catalog name.
+
     props = {}
     
     # Replace this with the custom url generated for you.
@@ -23,6 +25,10 @@ Make changes to `props.py` with your url and API key.
     
     # Replace 'your_api_key' with your API key.
     props['X-Api-Key'] = 'your_api_key'
+
+    # You need to give a name to your catalog.
+    # The sample scripts read the json files from this folder.
+    props['catalog_name'] = 'sample_catalog'    
 
 
 Run `fashion_quote.py` to ensure that your custom api url and the API key is working.
@@ -36,14 +42,6 @@ Run `fashion_quote.py` to ensure that your custom api url and the API key is wor
 1. Get info about a product catalog (`catalog_info.py`).
 1. Delete a product catalog (`catalog_delete.py`).
 
-## Natural Language Search
-
-1. Natural Language Search (`natural_language_search.py`).
-2. elasticsearch queries (`elasticsearch_queries`). 
-3. Parse fashion query/text (`fashion_query_parse`). 
-4. Get search terms (`fashion_query_search_terms`). 
-5. Spelling correction (`fashion_query_spell_correct`). 
-
 ## Visual Browse and Visual Search
 
 1. Build the visual search index (`visual_search_index_build.py`).
@@ -51,6 +49,14 @@ Run `fashion_quote.py` to ensure that your custom api url and the API key is wor
 1. Get other visually similar products in the catalog (`visual_browse.py`). 
 1. Get visually similar products in the catalog for an uploaded image (`visual_search.py`).
 1. Delete the visual search index (`visual_search_index_delete.py`).
+
+## Natural Language Search
+
+1. Natural Language Search (`natural_language_search.py`).
+2. elasticsearch queries (`elasticsearch_queries`). 
+3. Parse fashion query/text (`fashion_query_parse`). 
+4. Get search terms (`fashion_query_search_terms`). 
+5. Spelling correction (`fashion_query_spell_correct`). 
 
 ## Colors
 

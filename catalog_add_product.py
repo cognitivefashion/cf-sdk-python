@@ -19,7 +19,7 @@ api_gateway_url = props['api_gateway_url']
 headers = {'X-Api-Key': props['X-Api-Key']}
 
 # You need to give a name to your catalog.
-catalog_name = 'sample_catalog'
+catalog_name = props['catalog_name']
 
 # Some sample data where each product in the catalog is in a json format
 # described earlier.
