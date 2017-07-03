@@ -25,11 +25,7 @@ api_endpoint = '/v1/catalog/%s/visual_search_index'%(catalog_name)
 
 url = urljoin(api_gateway_url,api_endpoint)
 
-params = {}
-# Optional parameters.
-params['ignore_detail_images'] = 'true'
-
-response = requests.post(url,headers=headers,params=params)
+response = requests.post(url,headers=headers)
 
 print response.status_code
 pprint(response.json())

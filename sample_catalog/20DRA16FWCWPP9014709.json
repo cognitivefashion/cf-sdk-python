@@ -12,6 +12,7 @@
   "1": {
    "camera_focus": "UNK", 
    "pose": "front", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWPP9014709/Front_Large_1359.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWPP9014709_1_front_UNK.jpg"
@@ -19,6 +20,7 @@
   "3": {
    "camera_focus": "UNK", 
    "pose": "right", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWPP9014709/Right_Large_1359.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWPP9014709_3_right_UNK.jpg"
@@ -26,6 +28,7 @@
   "2": {
    "camera_focus": "UNK", 
    "pose": "left", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWPP9014709/Left_Large_1359.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWPP9014709_2_left_UNK.jpg"
@@ -33,6 +36,7 @@
   "5": {
    "camera_focus": "UNK", 
    "pose": "top", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWPP9014709/Top_Large_1359.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWPP9014709_5_top_UNK.jpg"
@@ -40,6 +44,7 @@
   "4": {
    "camera_focus": "detail", 
    "pose": "UNK", 
+   "ignore": "yes", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWPP9014709/Detail_Large_1359.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWPP9014709_4_UNK_detail.jpg"
@@ -47,6 +52,7 @@
   "6": {
    "camera_focus": "full", 
    "pose": "front", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWPP9014709/Look_Large_1359.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWPP9014709_6_front_full.jpg"
@@ -68,16 +74,16 @@
  ], 
  "pattern": "UNK", 
  "sale_percentage": 9.970501474926253, 
- "season": "UNK", 
  "sale_price": 1526.0, 
- "brand": "20dresses", 
- "description": "Pointy-toed black pumps with low top styling, has a faux leather upper, textured outsole with block heels", 
  "price": 1695.0, 
- "occasion": "UNK", 
+ "description": "Pointy-toed black pumps with low top styling, has a faux leather upper, textured outsole with block heels", 
+ "season": "UNK", 
+ "brand": "20dresses", 
+ "attributes": "UNK", 
  "date": "2016-10-12", 
  "name": "20dresses women black pumps", 
  "url": "http://www.abof.com/product/20DRA16FWCWPP9014709-20Dresses-Women-Black-Pumps", 
  "gender": "female", 
- "attributes": "UNK", 
+ "occasion": "UNK", 
  "out_of_stock": "no"
 }

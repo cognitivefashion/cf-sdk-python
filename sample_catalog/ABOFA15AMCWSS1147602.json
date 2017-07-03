@@ -12,6 +12,7 @@
   "1": {
    "camera_focus": "UNK", 
    "pose": "front", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AMCWSS1147602/Front_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "ABOFA15AMCWSS1147602_1_front_UNK.jpg"
@@ -19,6 +20,7 @@
   "3": {
    "camera_focus": "UNK", 
    "pose": "right", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AMCWSS1147602/Right_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "ABOFA15AMCWSS1147602_3_right_UNK.jpg"
@@ -26,6 +28,7 @@
   "2": {
    "camera_focus": "UNK", 
    "pose": "left", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AMCWSS1147602/Left_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "ABOFA15AMCWSS1147602_2_left_UNK.jpg"
@@ -33,6 +36,7 @@
   "5": {
    "camera_focus": "UNK", 
    "pose": "back", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AMCWSS1147602/Back_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "ABOFA15AMCWSS1147602_5_back_UNK.jpg"
@@ -40,6 +44,7 @@
   "4": {
    "camera_focus": "detail", 
    "pose": "UNK", 
+   "ignore": "yes", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AMCWSS1147602/Detail_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "ABOFA15AMCWSS1147602_4_UNK_detail.jpg"
@@ -47,6 +52,7 @@
   "7": {
    "camera_focus": "full", 
    "pose": "front", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AMCWSS1147602/Look_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "ABOFA15AMCWSS1147602_7_front_full.jpg"
@@ -54,6 +60,7 @@
   "6": {
    "camera_focus": "detail", 
    "pose": "UNK", 
+   "ignore": "yes", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AMCWSS1147602/Detail_2_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "ABOFA15AMCWSS1147602_6_UNK_detail.jpg"
@@ -73,16 +80,16 @@
  ], 
  "pattern": "UNK", 
  "sale_percentage": 49.96865203761755, 
- "season": "UNK", 
  "sale_price": 798.0, 
- "brand": "abof", 
- "description": "Black sweatshirt, has an attached hood with drawstring fastening, printed panel on the front, two insert pockets on the front, ribbed along the sleeve hems and hemline", 
  "price": 1595.0, 
- "occasion": "UNK", 
+ "description": "Black sweatshirt, has an attached hood with drawstring fastening, printed panel on the front, two insert pockets on the front, ribbed along the sleeve hems and hemline", 
+ "season": "UNK", 
+ "brand": "abof", 
+ "attributes": "UNK", 
  "date": "2016-10-12", 
  "name": "abof men black hooded sweatshirt", 
  "url": "http://www.abof.com/product/ABOFA15AMCWSS1147602-abof-Men-Black-Hooded-Sweatshirt", 
  "gender": "male", 
- "attributes": "UNK", 
+ "occasion": "UNK", 
  "out_of_stock": "no"
 }

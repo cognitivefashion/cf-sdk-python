@@ -12,6 +12,7 @@
   "1": {
    "camera_focus": "UNK", 
    "pose": "front", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2016/109FA16AWWWTN9C36M18/Front_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "109FA16AWWWTN9C36M18_1_front_UNK.jpg"
@@ -19,6 +20,7 @@
   "3": {
    "camera_focus": "detail", 
    "pose": "UNK", 
+   "ignore": "yes", 
    "image_url": "http://images.abofcdn.com/catalog/images/2016/109FA16AWWWTN9C36M18/Detail_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "109FA16AWWWTN9C36M18_3_UNK_detail.jpg"
@@ -26,6 +28,7 @@
   "2": {
    "camera_focus": "UNK", 
    "pose": "right", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2016/109FA16AWWWTN9C36M18/Right_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "109FA16AWWWTN9C36M18_2_right_UNK.jpg"
@@ -33,6 +36,7 @@
   "4": {
    "camera_focus": "UNK", 
    "pose": "back", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2016/109FA16AWWWTN9C36M18/Back_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "109FA16AWWWTN9C36M18_4_back_UNK.jpg"
@@ -52,16 +56,16 @@
  ], 
  "pattern": "UNK", 
  "sale_percentage": 0.0, 
- "season": "UNK", 
  "sale_price": 1999.0, 
- "brand": "109f", 
- "description": "Orange tunic, has a notched mandarin collar with split V and criss-cross interlaced detail on the front, three-quarter sleeves with roll-up tab feature, curved hemline, extended back hem, side slits", 
  "price": 1999.0, 
- "occasion": "UNK", 
+ "description": "Orange tunic, has a notched mandarin collar with split V and criss-cross interlaced detail on the front, three-quarter sleeves with roll-up tab feature, curved hemline, extended back hem, side slits", 
+ "season": "UNK", 
+ "brand": "109f", 
+ "attributes": "UNK", 
  "date": "2016-10-12", 
  "name": "109f women orange regular fit tunic", 
  "url": "http://www.abof.com/product/109FA16AWWWTN9C36M18-109F-Women-Orange-Regular-Fit-Tunic", 
  "gender": "female", 
- "attributes": "UNK", 
+ "occasion": "UNK", 
  "out_of_stock": "no"
 }

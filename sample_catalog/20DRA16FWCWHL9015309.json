@@ -12,6 +12,7 @@
   "1": {
    "camera_focus": "UNK", 
    "pose": "front", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWHL9015309/Front_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWHL9015309_1_front_UNK.jpg"
@@ -19,6 +20,7 @@
   "3": {
    "camera_focus": "UNK", 
    "pose": "right", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWHL9015309/Right_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWHL9015309_3_right_UNK.jpg"
@@ -26,6 +28,7 @@
   "2": {
    "camera_focus": "UNK", 
    "pose": "left", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWHL9015309/Left_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWHL9015309_2_left_UNK.jpg"
@@ -33,6 +36,7 @@
   "5": {
    "camera_focus": "UNK", 
    "pose": "top", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWHL9015309/Top_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWHL9015309_5_top_UNK.jpg"
@@ -40,6 +44,7 @@
   "4": {
    "camera_focus": "detail", 
    "pose": "UNK", 
+   "ignore": "yes", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWHL9015309/Detail_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWHL9015309_4_UNK_detail.jpg"
@@ -47,6 +52,7 @@
   "6": {
    "camera_focus": "full", 
    "pose": "front", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWHL9015309/Look_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWHL9015309_6_front_full.jpg"
@@ -68,16 +74,16 @@
  ], 
  "pattern": "UNK", 
  "sale_percentage": 9.974937343358397, 
- "season": "UNK", 
  "sale_price": 1796.0, 
- "brand": "20dresses", 
- "description": "Peep-toed black sandals with high top styling, has an artificial leather upper with stylized lace-up and laser-cut detail, heel collar secured with zip closure, patterned outsole with stiletto heels", 
  "price": 1995.0, 
- "occasion": "UNK", 
+ "description": "Peep-toed black sandals with high top styling, has an artificial leather upper with stylized lace-up and laser-cut detail, heel collar secured with zip closure, patterned outsole with stiletto heels", 
+ "season": "UNK", 
+ "brand": "20dresses", 
+ "attributes": "UNK", 
  "date": "2016-10-12", 
  "name": "20dresses women black gladiator stilettos", 
  "url": "http://www.abof.com/product/20DRA16FWCWHL9015309-20Dresses-Women-Black-Gladiator-Stilettos", 
  "gender": "female", 
- "attributes": "UNK", 
+ "occasion": "UNK", 
  "out_of_stock": "no"
 }

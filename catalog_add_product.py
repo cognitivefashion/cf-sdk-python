@@ -29,7 +29,6 @@ json_filenames = [f for f in os.listdir(catalog_folder) if not f.startswith('.')
 params = {}
 # Optional parameters.
 params['download_images'] = 'true'
-params['ignore_detail_images'] = 'true'
 
 for filename in json_filenames:
     # load the json file

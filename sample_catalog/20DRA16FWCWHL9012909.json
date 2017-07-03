@@ -12,6 +12,7 @@
   "1": {
    "camera_focus": "UNK", 
    "pose": "front", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWHL9012909/Front_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWHL9012909_1_front_UNK.jpg"
@@ -19,6 +20,7 @@
   "3": {
    "camera_focus": "UNK", 
    "pose": "right", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWHL9012909/Right_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWHL9012909_3_right_UNK.jpg"
@@ -26,6 +28,7 @@
   "2": {
    "camera_focus": "UNK", 
    "pose": "left", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWHL9012909/Left_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWHL9012909_2_left_UNK.jpg"
@@ -33,6 +36,7 @@
   "5": {
    "camera_focus": "UNK", 
    "pose": "top", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWHL9012909/Top_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWHL9012909_5_top_UNK.jpg"
@@ -40,6 +44,7 @@
   "4": {
    "camera_focus": "detail", 
    "pose": "UNK", 
+   "ignore": "yes", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWHL9012909/Detail_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWHL9012909_4_UNK_detail.jpg"
@@ -47,6 +52,7 @@
   "6": {
    "camera_focus": "full", 
    "pose": "front", 
+   "ignore": "no", 
    "image_url": "http://images.abofcdn.com/catalog/images/2015/20DRA16FWCWHL9012909/Look_Large.jpg", 
    "model_worn": "yes", 
    "image_filename": "20DRA16FWCWHL9012909_6_front_full.jpg"
@@ -67,16 +73,16 @@
  ], 
  "pattern": "UNK", 
  "sale_percentage": 29.970501474926255, 
- "season": "UNK", 
  "sale_price": 1187.0, 
- "brand": "20dresses", 
- "description": "Pointy-toed black sandals with mid top styling, has an artificial leather upper, ankle loop with fringed and studded detail that connects the heel collar secured with zip closure, patterned outsole with stiletto heels", 
  "price": 1695.0, 
- "occasion": "UNK", 
+ "description": "Pointy-toed black sandals with mid top styling, has an artificial leather upper, ankle loop with fringed and studded detail that connects the heel collar secured with zip closure, patterned outsole with stiletto heels", 
+ "season": "UNK", 
+ "brand": "20dresses", 
+ "attributes": "UNK", 
  "date": "2016-10-12", 
  "name": "20dresses women black stilettos", 
  "url": "http://www.abof.com/product/20DRA16FWCWHL9012909-20Dresses-Women-Black-Stilettos", 
  "gender": "female", 
- "attributes": "UNK", 
+ "occasion": "UNK", 
  "out_of_stock": "no"
 }

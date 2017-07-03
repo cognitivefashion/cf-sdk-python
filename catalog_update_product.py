@@ -35,7 +35,6 @@ data['out_of_stock'] = 'yes'
 params = {}
 # Optional parameters.
 params['download_images'] = 'true'
-params['ignore_detail_images'] = 'true'
 
 response = requests.put(url,
                         headers=headers,
