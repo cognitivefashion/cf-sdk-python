@@ -41,6 +41,7 @@ Run `fashion_quote.py` to ensure that your custom api url and the API key is wor
 1. Delete product from a catalog. (`catalog_delete_product.py`).
 1. Get info about a product catalog (`catalog_info.py`).
 1. Delete a product catalog (`catalog_delete.py`).
+1. Get all catalog names (`catalog_names.py`).
 
 ## Visual Browse and Visual Search
 
