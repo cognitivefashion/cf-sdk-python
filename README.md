@@ -65,4 +65,5 @@ Run `fashion_quote.py` to ensure that your custom api url and the API key is wor
 2. Get similar colors (`colors_similar.py`).
 3. Dominant color palette (`colors_dominant`). 
 
-[Find out more](http://researcher.ibm.com/researcher/view_group.php?id=7814)
+## [Find out more](http://researcher.ibm.com/researcher/view_group.php?id=7814)
+## [Check the demo](http://cfdemosflagship.mybluemix.net/)
