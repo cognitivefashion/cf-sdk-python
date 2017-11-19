@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
 # Build the visual search index.  
-# GET /v1/catalog/{catalog_name}/visual_search_index
+# POST /v1/catalog/{catalog_name}/visual_search_index
 #------------------------------------------------------------------------------
 
 import os

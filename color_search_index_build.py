@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-# Dominant color palette. 
-# POST /v1/colors/dominant_colors
+# Build the color search index.
+# POST /v1/catalog/{catalog_name}/color_search_index
 #------------------------------------------------------------------------------
 
 import os
@@ -25,16 +25,15 @@ params['color_count'] = 3
 params['quality'] = 1
 params['image_max_dimension'] = 256
 
-api_endpoint = '/v1/colors/dominant_colors'
+# Catalog name.
+catalog_name = props['catalog_name']
+
+api_endpoint = '/v1/catalog/%s/color_search_index'%(catalog_name)
 
 url = urljoin(api_gateway_url,api_endpoint)
 
-headers['Content-Type'] = 'image/jpeg'
-
-response = requests.post(url,
-                         headers=headers,
-                         params=params,
-                         data=open('test_image_2.jpeg','rb'))
+response = requests.post(url,headers=headers,params=params)
 
 print response.status_code
 pprint(response.json())
+

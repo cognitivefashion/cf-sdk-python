@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-# Dominant color palette. 
-# POST /v1/colors/dominant_colors
+# Get the dominant colors for an image in the catalog.
+# GET /v1/catalog/{catalog_name}/dominant_colors/{id}/{image_id}
 #------------------------------------------------------------------------------
 
 import os
@@ -18,23 +18,18 @@ api_gateway_url = props['api_gateway_url']
 # Replace 'your_api_key' with your API key.
 headers = {'X-Api-Key': props['X-Api-Key']}
 
-params = {}
+# Catalog name.
+catalog_name = props['catalog_name']
 
-# Optional parameters.
-params['color_count'] = 3
-params['quality'] = 1
-params['image_max_dimension'] = 256
+id ='109FA16AWWWTN9C36M18'
+image_id = '1'
 
-api_endpoint = '/v1/colors/dominant_colors'
+api_endpoint = '/v1/catalog/%s/dominant_colors/%s/%s'%(catalog_name,id,image_id)
 
 url = urljoin(api_gateway_url,api_endpoint)
 
-headers['Content-Type'] = 'image/jpeg'
-
-response = requests.post(url,
-                         headers=headers,
-                         params=params,
-                         data=open('test_image_2.jpeg','rb'))
+response = requests.get(url,headers=headers)
 
 print response.status_code
 pprint(response.json())
+

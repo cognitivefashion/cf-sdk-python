@@ -1,8 +1,5 @@
 """ Make changes to this file.
 """
-# http://irlbxvm137.irl.in.ibm.com:5000/v1/fashion_quote?api_key=cognitive_fAshIon_developer
-
-
 props = {}
 
 # Replace this with the custom url generated for you.
