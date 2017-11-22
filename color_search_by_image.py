@@ -33,10 +33,10 @@ api_endpoint = '/v1/catalog/%s/color_search'%(catalog_name)
 
 url = urljoin(api_gateway_url,api_endpoint)
 
-response = requests.get(url,
+response = requests.post(url,
                         headers=headers,
                         params=params,
-                        data=open('test_image_2.jpeg','rb'))
+                        data=open('test_image_1.jpeg','rb'))
 
 print response.status_code
 pprint(response.json())
