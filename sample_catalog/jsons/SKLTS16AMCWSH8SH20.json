@@ -1,0 +1,92 @@
+{
+ "color": [
+  "Medium Grey", 
+  "Grey"
+ ], 
+ "taxonomy": "UNK", 
+ "currency": "INR", 
+ "images": {
+  "1": {
+   "camera_focus": "iconic", 
+   "pose": "right", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/SKLTS16AMCWSH8SH2005/Right_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SKLTS16AMCWSH8SH20_1.jpg"
+  }, 
+  "3": {
+   "camera_focus": "detail", 
+   "pose": "UNK", 
+   "ignore": "yes", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/SKLTS16AMCWSH8SH2005/Detail_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SKLTS16AMCWSH8SH20_3.jpg"
+  }, 
+  "2": {
+   "camera_focus": "iconic", 
+   "pose": "front", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/SKLTS16AMCWSH8SH2005/Front_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SKLTS16AMCWSH8SH20_2.jpg"
+  }, 
+  "5": {
+   "camera_focus": "iconic", 
+   "pose": "left", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/SKLTS16AMCWSH8SH2005/Left_Medium_1534.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SKLTS16AMCWSH8SH20_5.jpg"
+  }, 
+  "4": {
+   "camera_focus": "outfit", 
+   "pose": "UNK", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/SKLTS16AMCWSH8SH2005/Look_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SKLTS16AMCWSH8SH20_4.jpg"
+  }
+ }, 
+ "available_sizes": [
+  "S", 
+  "M", 
+  "L", 
+  "XL"
+ ], 
+ "style_tip": "Wear this ombre washed shirt with a tee and a pair of jeans for a monochromatic look. Add on a white hip-hop cap for a stylish contrast.", 
+ "id": "SKLTS16AMCWSH8SH20", 
+ "category": "Shirt", 
+ "fabric": [
+  "Blended", 
+  "100% cotton; Machine-wash"
+ ], 
+ "pattern": [
+  "Others"
+ ], 
+ "sale_percentage": 40.0, 
+ "sale_price": 1080.0, 
+ "brand": [
+  "SKULT"
+ ], 
+ "description": "Grey ombre washed shirt, has a spread collar with full button placket, long sleeves with button cuffs, a patch pocket on the front", 
+ "season": [
+  "SS"
+ ], 
+ "price": 1800.0, 
+ "attributes": [
+  "fit:Regular", 
+  "collar:Spread Collar", 
+  "lifecycle:Edgy", 
+  "sleeve:Long Sleeve"
+ ], 
+ "date": [
+  "2016-10-13T06:30:00Z"
+ ], 
+ "name": "SKULT Men Grey Ombre Washed Shirt", 
+ "url": "http://www.abof.com", 
+ "gender": "male", 
+ "occasion": [
+  "Casual"
+ ], 
+ "out_of_stock": "no"
+}

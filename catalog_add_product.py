@@ -23,7 +23,7 @@ catalog_name = props['catalog_name']
 
 # Some sample data where each product in the catalog is in a json format
 # described earlier.
-catalog_folder = 'sample_catalog'
+catalog_folder = os.path.join('sample_catalog','jsons')
 json_filenames = [f for f in os.listdir(catalog_folder) if not f.startswith('.')]
 
 params = {}

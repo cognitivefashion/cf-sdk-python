@@ -1,0 +1,81 @@
+{
+ "color": [
+  "White"
+ ], 
+ "taxonomy": "UNK", 
+ "currency": "INR", 
+ "images": {
+  "1": {
+   "camera_focus": "iconic", 
+   "pose": "front", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/LPJNA16AMDMTE9166200/Front_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "LPJNA16AMDMTE91662_1.jpg"
+  }, 
+  "3": {
+   "camera_focus": "detail", 
+   "pose": "UNK", 
+   "ignore": "yes", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/LPJNA16AMDMTE9166200/Detail_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "LPJNA16AMDMTE91662_3.jpg"
+  }, 
+  "2": {
+   "camera_focus": "iconic", 
+   "pose": "right", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/LPJNA16AMDMTE9166200/Right_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "LPJNA16AMDMTE91662_2.jpg"
+  }, 
+  "4": {
+   "camera_focus": "iconic", 
+   "pose": "back", 
+   "ignore": "yes", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/LPJNA16AMDMTE9166200/Back_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "LPJNA16AMDMTE91662_4.jpg"
+  }
+ }, 
+ "available_sizes": [
+  "S", 
+  "M", 
+  "L"
+ ], 
+ "style_tip": "Keep it stylish by teaming this tee with a pair of denims and sneakers. You can also match it with a pair of shorts and loafers for a trendy look.", 
+ "id": "LPJNA16AMDMTE91662", 
+ "category": "T-shirt", 
+ "fabric": [
+  "100% Cotton", 
+  "100% cotton; Machine-wash"
+ ], 
+ "pattern": [
+  "Printed"
+ ], 
+ "sale_percentage": 30.0, 
+ "sale_price": 770.0, 
+ "brand": [
+  "LP Jeans by Louis Philippe"
+ ], 
+ "description": "White printed T-shirt, has a crew neck, short sleeves", 
+ "season": [
+  "AW"
+ ], 
+ "price": 1100.0, 
+ "attributes": [
+  "fit:Slim", 
+  "lifecycle:Fashion"
+ ], 
+ "date": [
+  "2016-10-21T06:30:00Z"
+ ], 
+ "name": "LP Jeans by Louis Philippe Men White Printed Slim Fit T-shirt", 
+ "url": "http://www.abof.com", 
+ "gender": "male", 
+ "occasion": [
+  "Casuals", 
+  "Loungewear"
+ ], 
+ "out_of_stock": "no"
+}

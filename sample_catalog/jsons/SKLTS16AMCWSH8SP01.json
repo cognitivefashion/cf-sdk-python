@@ -1,0 +1,91 @@
+{
+ "color": [
+  "Black"
+ ], 
+ "taxonomy": "UNK", 
+ "currency": "INR", 
+ "images": {
+  "1": {
+   "camera_focus": "detail", 
+   "pose": "UNK", 
+   "ignore": "yes", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/SKLTS16AMCWSH8SP0150/Detail_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SKLTS16AMCWSH8SP01_1.jpg"
+  }, 
+  "3": {
+   "camera_focus": "iconic", 
+   "pose": "left", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/SKLTS16AMCWSH8SP0150/Left_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SKLTS16AMCWSH8SP01_3.jpg"
+  }, 
+  "2": {
+   "camera_focus": "iconic", 
+   "pose": "front", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/SKLTS16AMCWSH8SP0150/Front_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SKLTS16AMCWSH8SP01_2.jpg"
+  }, 
+  "5": {
+   "camera_focus": "iconic", 
+   "pose": "right", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/SKLTS16AMCWSH8SP0150/Right_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SKLTS16AMCWSH8SP01_5.jpg"
+  }, 
+  "4": {
+   "camera_focus": "outfit", 
+   "pose": "UNK", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/SKLTS16AMCWSH8SP0150/Look_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SKLTS16AMCWSH8SP01_4.jpg"
+  }
+ }, 
+ "available_sizes": [
+  "S", 
+  "M", 
+  "L", 
+  "XL"
+ ], 
+ "style_tip": "Ace the hipster look by teaming this quirky printed shirt with an angular vest and a pair of casual shoes. Elevate the style by matching it with a trendy watch and a pair of sunglasses.", 
+ "id": "SKLTS16AMCWSH8SP01", 
+ "category": "Shirt", 
+ "fabric": [
+  "100% Cotton", 
+  "Cotton; Machine-wash"
+ ], 
+ "pattern": [
+  "Printed"
+ ], 
+ "sale_percentage": 0.0, 
+ "sale_price": 1499.0, 
+ "brand": [
+  "SKULT"
+ ], 
+ "description": "Black quirky printed shirt, has a spread collar with full button placket, long sleeves with button cuffs, curved hemline", 
+ "season": [
+  "SS"
+ ], 
+ "price": 1499.0, 
+ "attributes": [
+  "fit:Regular", 
+  "collar:Spread Collar", 
+  "lifecycle:Edgy", 
+  "sleeve:Long Sleeve"
+ ], 
+ "date": [
+  "2016-11-29T06:30:00Z"
+ ], 
+ "name": "SKULT Men Black Quirky Printed Shirt", 
+ "url": "http://www.abof.com", 
+ "gender": "male", 
+ "occasion": [
+  "Casual"
+ ], 
+ "out_of_stock": "no"
+}

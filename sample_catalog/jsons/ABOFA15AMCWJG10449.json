@@ -1,0 +1,83 @@
+{
+ "category": "Joggers", 
+ "gender": "male", 
+ "fabric": [
+  "Cotton and polyester blend; Machine-wash", 
+  "Cotton Blends"
+ ], 
+ "currency": "INR", 
+ "color": [
+  "Blue", 
+  "Medium Stone Blue"
+ ], 
+ "taxonomy": "UNK", 
+ "price": 1095.0, 
+ "sale_percentage": 60.0, 
+ "brand": [
+  "abof"
+ ], 
+ "season": [
+  "AW"
+ ], 
+ "name": "abof Men Blue Printed Regular Fit Joggers", 
+ "out_of_stock": "no", 
+ "date": "2017-09-26", 
+ "url": "http://www.abof.com", 
+ "sale_price": 438.0, 
+ "images": {
+  "1": {
+   "camera_focus": "iconic", 
+   "pose": "right", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AMCWJG1044901/Right_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AMCWJG10449_1.jpg"
+  }, 
+  "3": {
+   "camera_focus": "iconic", 
+   "pose": "left", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AMCWJG1044901/Left_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AMCWJG10449_3.jpg"
+  }, 
+  "2": {
+   "camera_focus": "iconic", 
+   "pose": "front", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AMCWJG1044901/Front_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AMCWJG10449_2.jpg"
+  }, 
+  "5": {
+   "camera_focus": "detail", 
+   "pose": "UNK", 
+   "ignore": "yes", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AMCWJG1044901/Detail_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AMCWJG10449_5.jpg"
+  }, 
+  "4": {
+   "camera_focus": "outfit", 
+   "pose": "UNK", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/ABOFA15AMCWJG1044901/Look_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "ABOFA15AMCWJG10449_4.jpg"
+  }
+ }, 
+ "available_sizes": [
+  "S", 
+  "M", 
+  "L", 
+  "XL"
+ ], 
+ "attributes": [
+  "waist_rise:Mid Waist", 
+  "lifecycle:Edgy", 
+  "length:Full Length"
+ ], 
+ "style_tip": "Club these joggers with a hooded sweatshirt and a pair of running shoes. Add on a cap to complete a casual, relaxed look.", 
+ "id": "ABOFA15AMCWJG10449", 
+ "description": "Blue printed joggers, has an elasticized waistband with drawstring closure, insert pockets on either side, a welt pocket on the back, ribbed hems"
+}

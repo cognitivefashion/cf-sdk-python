@@ -1,0 +1,93 @@
+{
+ "color": [
+  "Blue", 
+  "Teal"
+ ], 
+ "taxonomy": "UNK", 
+ "currency": "INR", 
+ "images": {
+  "1": {
+   "camera_focus": "outfit", 
+   "pose": "UNK", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/SHRES16AWFSDR9346A54/Look_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SHRES16AWFSDR9346A_1.jpg"
+  }, 
+  "3": {
+   "camera_focus": "detail", 
+   "pose": "UNK", 
+   "ignore": "yes", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/SHRES16AWFSDR9346A54/Detail_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SHRES16AWFSDR9346A_3.jpg"
+  }, 
+  "2": {
+   "camera_focus": "iconic", 
+   "pose": "right", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/SHRES16AWFSDR9346A54/Right_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SHRES16AWFSDR9346A_2.jpg"
+  }, 
+  "5": {
+   "camera_focus": "iconic", 
+   "pose": "left", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/SHRES16AWFSDR9346A54/Left_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SHRES16AWFSDR9346A_5.jpg"
+  }, 
+  "4": {
+   "camera_focus": "iconic", 
+   "pose": "front", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/SHRES16AWFSDR9346A54/Front_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SHRES16AWFSDR9346A_4.jpg"
+  }
+ }, 
+ "available_sizes": [
+  "S", 
+  "M", 
+  "L", 
+  "XL", 
+  "XXL"
+ ], 
+ "style_tip": "To complete an ethnic look, team this kurta with a pair of white leggings and strappy heels. Add on a pair of pretty earrings and a statement bracelet to match the attire.", 
+ "id": "SHRES16AWFSDR9346A", 
+ "category": "Kurta", 
+ "fabric": [
+  "Blended", 
+  "Liva (New-age naturally created fabric, has soft and smooth texture that falls and drapes perfectly on the body silhouette); Hand-wash cold"
+ ], 
+ "pattern": [
+  "Printed"
+ ], 
+ "sale_percentage": 0.0, 
+ "sale_price": 999.0, 
+ "brand": [
+  "Shree"
+ ], 
+ "description": "Teal blue printed kurta, has a round neck, sleeveless, embroidered detail on the front, paneled front and back, side slits", 
+ "season": [
+  "SS"
+ ], 
+ "price": 999.0, 
+ "attributes": [
+  "fit:Regular", 
+  "collar:Others", 
+  "lifecycle:Fashion", 
+  "sleeve:Sleeveless"
+ ], 
+ "date": [
+  "2016-08-26T06:30:00Z"
+ ], 
+ "name": "Shree Women Teal Blue Liva Printed Regular Fit Kurta", 
+ "url": "http://www.abof.com", 
+ "gender": "female", 
+ "occasion": [
+  "Casual"
+ ], 
+ "out_of_stock": "no"
+}

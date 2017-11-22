@@ -1,0 +1,90 @@
+{
+ "color": [
+  "Multi"
+ ], 
+ "taxonomy": "UNK", 
+ "currency": "INR", 
+ "images": {
+  "1": {
+   "camera_focus": "outfit", 
+   "pose": "UNK", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/SHRES16AWFSDR9346B18/Look_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SHRES16AWFSDR9346B_1.jpg"
+  }, 
+  "3": {
+   "camera_focus": "detail", 
+   "pose": "UNK", 
+   "ignore": "yes", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/SHRES16AWFSDR9346B18/Detail_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SHRES16AWFSDR9346B_3.jpg"
+  }, 
+  "2": {
+   "camera_focus": "iconic", 
+   "pose": "left", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/SHRES16AWFSDR9346B18/Left_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SHRES16AWFSDR9346B_2.jpg"
+  }, 
+  "5": {
+   "camera_focus": "iconic", 
+   "pose": "front", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/SHRES16AWFSDR9346B18/Front_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SHRES16AWFSDR9346B_5.jpg"
+  }, 
+  "4": {
+   "camera_focus": "iconic", 
+   "pose": "right", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2015/SHRES16AWFSDR9346B18/Right_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "SHRES16AWFSDR9346B_4.jpg"
+  }
+ }, 
+ "available_sizes": [
+  "S", 
+  "M", 
+  "L", 
+  "XL", 
+  "XXL"
+ ], 
+ "style_tip": "Make a style statement by matching this kurta with a pair of contrast palazzos. You can also match it with a pair of leggings for a simple elegant look.", 
+ "id": "SHRES16AWFSDR9346B", 
+ "category": "Dress", 
+ "fabric": [
+  "Viscose Blends", 
+  "Liva (New-age naturally created fabric, has soft and smooth texture that falls and drapes perfectly on the body silhouette); Hand-wash cold"
+ ], 
+ "sale_percentage": 0.0, 
+ "sale_price": 999.0, 
+ "brand": [
+  "Shree"
+ ], 
+ "description": "Multicolored printed kurta, has a boat neck, sleeveless, embroidered detail on the front, printed taping along the neckline and armholes", 
+ "season": [
+  "SS"
+ ], 
+ "price": 999.0, 
+ "attributes": [
+  "style:A line Dress", 
+  "collar:Round Neck", 
+  "lifecycle:Fashion", 
+  "sleeve:Sleeveless", 
+  "length:Knee"
+ ], 
+ "date": [
+  "2016-02-13T06:30:00Z"
+ ], 
+ "name": "Shree Women Multicolor Liva Printed Regular Fit Kurta", 
+ "url": "http://www.abof.com", 
+ "gender": "female", 
+ "occasion": [
+  "Casual"
+ ], 
+ "out_of_stock": "no"
+}

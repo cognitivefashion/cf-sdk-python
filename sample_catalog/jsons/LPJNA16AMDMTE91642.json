@@ -1,0 +1,82 @@
+{
+ "color": [
+  "Super Stone Light Blue", 
+  "Blue"
+ ], 
+ "taxonomy": "UNK", 
+ "currency": "INR", 
+ "images": {
+  "1": {
+   "camera_focus": "iconic", 
+   "pose": "right", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/LPJNA16AMDMTE9164250/Right_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "LPJNA16AMDMTE91642_1.jpg"
+  }, 
+  "3": {
+   "camera_focus": "detail", 
+   "pose": "UNK", 
+   "ignore": "yes", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/LPJNA16AMDMTE9164250/Detail_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "LPJNA16AMDMTE91642_3.jpg"
+  }, 
+  "2": {
+   "camera_focus": "iconic", 
+   "pose": "front", 
+   "ignore": "no", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/LPJNA16AMDMTE9164250/Front_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "LPJNA16AMDMTE91642_2.jpg"
+  }, 
+  "4": {
+   "camera_focus": "iconic", 
+   "pose": "back", 
+   "ignore": "yes", 
+   "image_url": "http://images.abofcdn.com/catalog/images/2016/LPJNA16AMDMTE9164250/Back_Medium.jpg", 
+   "model_worn": "yes", 
+   "image_filename": "LPJNA16AMDMTE91642_4.jpg"
+  }
+ }, 
+ "available_sizes": [
+  "M", 
+  "L", 
+  "XL"
+ ], 
+ "style_tip": "Compose a chilled-out attire in this Henley tee, club it with a pair of beige chinos and loafers. Add on a leather jacket.", 
+ "id": "LPJNA16AMDMTE91642", 
+ "category": "T-shirt", 
+ "fabric": [
+  "100% Cotton", 
+  "100% cotton; Machine-wash"
+ ], 
+ "pattern": [
+  "Solid"
+ ], 
+ "sale_percentage": 30.0, 
+ "sale_price": 700.0, 
+ "brand": [
+  "LP Jeans by Louis Philippe"
+ ], 
+ "description": "Light blue Henley T-shirt, has a Henley neck, short sleeves, mock welt pocket on the front", 
+ "season": [
+  "AW"
+ ], 
+ "price": 1000.0000000000001, 
+ "attributes": [
+  "fit:Slim", 
+  "lifecycle:Fashion"
+ ], 
+ "date": [
+  "2016-10-21T06:30:00Z"
+ ], 
+ "name": "LP Jeans by Louis Philippe Men Light Blue Slim Fit Henley T-shirt", 
+ "url": "http://www.abof.com", 
+ "gender": "male", 
+ "occasion": [
+  "Casuals", 
+  "Loungewear"
+ ], 
+ "out_of_stock": "no"
+}
