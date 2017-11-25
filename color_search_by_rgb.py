@@ -21,10 +21,11 @@ headers = {'X-Api-Key': props['X-Api-Key']}
 params = {}
 
 # Parameters.
-params['r'] = 255
-params['g'] = 0
-params['b'] = 0
+params['r'] = 179
+params['g'] = 80
+params['b'] = 54
 params['max_number_of_results'] = 5
+
 
 # Catalog name.
 catalog_name = props['catalog_name']

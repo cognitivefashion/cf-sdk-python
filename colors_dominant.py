@@ -29,12 +29,30 @@ api_endpoint = '/v1/colors/dominant_colors'
 
 url = urljoin(api_gateway_url,api_endpoint)
 
-headers['Content-Type'] = 'image/jpeg'
+# Three options to pass the image
 
+# OPTION 1 : Directly post the image
+headers['Content-Type'] = 'image/jpeg'
 response = requests.post(url,
                          headers=headers,
                          params=params,
                          data=open('test_image_2.jpeg','rb'))
+
+"""              
+# OPTION 2 : Pass the image url
+params['image_url'] = 'http://vg-images.condecdn.net/image/oDXPOxw65EZ/crop/405'
+response = requests.post(url,
+                         headers=headers,
+                         params=params)
+
+# OPTION 3 : using multipart
+image_filename = 'test_image_2.jpeg'
+with open(image_filename,'rb') as images_file:
+    response = requests.post(url,
+                             headers=headers,
+                             params=params,
+                             files={'image': (image_filename,images_file,'image/jpeg')})   
+"""
 
 print response.status_code
 pprint(response.json())
