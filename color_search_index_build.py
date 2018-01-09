@@ -24,6 +24,7 @@ params = {}
 params['color_count'] = 3
 params['quality'] = 1
 params['image_max_dimension'] = 256
+params['ignore_background'] = 'true'
 
 # Catalog name.
 catalog_name = props['catalog_name']

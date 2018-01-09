@@ -25,6 +25,9 @@ url = urljoin(api_gateway_url,api_endpoint)
 params = {}
 params['color_term'] = 'purple'
 
+# Optional parameters
+#params['color_family'] = 'full'
+
 response = requests.get(url,headers=headers,params=params)
 
 print response.status_code
