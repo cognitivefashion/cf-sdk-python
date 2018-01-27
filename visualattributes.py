@@ -1,7 +1,6 @@
 #------------------------------------------------------------------------------
-# Get similar color images in the catalog for a given uploaded image.
-# GET /v1/catalog/{catalog_name}/color_search
-# params - color_count,image_max_dimension,max_number_of_results
+# Get visual attributes for a given uploaded image.
+# GET /v1/visualattributes/visualattributes
 #------------------------------------------------------------------------------
 
 import os
