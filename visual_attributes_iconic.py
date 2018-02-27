@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-# Person detection.
-# POST /v1/person
+# Get visual attributes for a given iconic image.
+# GET /v1/visualattributes/iconic
 #------------------------------------------------------------------------------
 
 import os
@@ -18,13 +18,10 @@ api_gateway_url = props['api_gateway_url']
 # Replace 'your_api_key' with your API key.
 headers = {'X-Api-Key': props['X-Api-Key']}
 
+# Parameters.
 params = {}
 
-# Optional parameters.
-#params['model'] = 'fast' # default
-params['model'] = 'accurate'
-
-api_endpoint = '/v1/person'
+api_endpoint = '/v1/visualattributes/iconic'
 
 url = urljoin(api_gateway_url,api_endpoint)
 
@@ -35,9 +32,9 @@ headers['Content-Type'] = 'image/jpeg'
 response = requests.post(url,
                          headers=headers,
                          params=params,
-                         data=open('test_image_11.jpg','rb'))
+                         data=open('test_image_1.jpeg','rb'))
 
-"""
+"""            
 # OPTION 2 : Pass the image url
 params['image_url'] = 'http://vg-images.condecdn.net/image/oDXPOxw65EZ/crop/405'
 response = requests.post(url,
@@ -47,7 +44,7 @@ response = requests.post(url,
 
 """
 # OPTION 3 : using multipart
-image_filename = 'test_image_3.jpeg'
+image_filename = 'test_image_1.jpeg'
 with open(image_filename,'rb') as images_file:
     response = requests.post(url,
                              headers=headers,
@@ -57,3 +54,4 @@ with open(image_filename,'rb') as images_file:
 
 print response.status_code
 pprint(response.json())
+
