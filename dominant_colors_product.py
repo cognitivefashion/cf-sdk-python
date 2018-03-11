@@ -21,7 +21,7 @@ headers = {'X-Api-Key': props['X-Api-Key']}
 # Catalog name.
 catalog_name = props['catalog_name']
 
-id ='109FA16AWWWTN9C36M18'
+id ='SHRES16AWFSDR9346B'
 image_id = '1'
 
 api_endpoint = '/v1/catalog/%s/dominant_colors/%s/%s'%(catalog_name,id,image_id)

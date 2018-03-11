@@ -26,7 +26,6 @@ params['g'] = 80
 params['b'] = 54
 params['max_number_of_results'] = 5
 
-
 # Catalog name.
 catalog_name = props['catalog_name']
 

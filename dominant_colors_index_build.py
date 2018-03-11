@@ -23,6 +23,7 @@ params = {}
 # Optional parameters.
 params['colors'] = 20
 params['max_colors_per_image'] = 2
+params['fraction_pixels_threshold'] = 0.1
 
 # Catalog name.
 catalog_name = props['catalog_name']

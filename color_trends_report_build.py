@@ -31,6 +31,7 @@ params['catalog_names'] = ','.join(catalog_names)
 # Optional parameters.
 params['colors'] = 10
 params['max_colors_per_image'] = 2
+params['fraction_pixels_threshold'] = 0.1
 
 report_name = 'vogue-autumn-winter'
 

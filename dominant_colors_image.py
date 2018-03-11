@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-# Dominant color palette. 
+# Dominant Colors for an image. 
 # POST /v1/colors/dominant_colors
 #------------------------------------------------------------------------------
 
@@ -25,6 +25,7 @@ params['color_count'] = 3
 params['quality'] = 1
 params['image_max_dimension'] = 256
 params['ignore_background'] = 'true'
+params['model'] = 'person_fast'
 
 api_endpoint = '/v1/colors/dominant_colors'
 
@@ -39,12 +40,12 @@ response = requests.post(url,
                          params=params,
                          data=open('test_image_2.jpeg','rb'))
 
-"""              
+"""          
 # OPTION 2 : Pass the image url
-params['image_url'] = 'http://vg-images.condecdn.net/image/oDXPOxw65EZ/crop/405'
+params['image_url'] = 'https://vg-images.condecdn.net/image/oDXPOxw65EZ/crop/405'
 response = requests.post(url,
                          headers=headers,
-                         params=params)
+
 
 # OPTION 3 : using multipart
 image_filename = 'test_image_2.jpeg'
@@ -53,7 +54,7 @@ with open(image_filename,'rb') as images_file:
                              headers=headers,
                              params=params,
                              files={'image': (image_filename,images_file,'image/jpeg')})   
-"""
+""" 
 
 print response.status_code
 pprint(response.json())
