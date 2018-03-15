@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-# Get the dominant colors for an image in the catalog.
-# GET /v1/catalog/{catalog_name}/dominant_colors/{id}/{image_id}
+# Basic text search
+# GET /v1/catalog/{catalog_name}/text_search
 #------------------------------------------------------------------------------
 
 import os
@@ -21,15 +21,25 @@ headers = {'X-Api-Key': props['X-Api-Key']}
 # Catalog name.
 catalog_name = props['catalog_name']
 
-id ='SHRES16AWFSDR9346B'
-image_id = '2'
-
-api_endpoint = '/v1/catalog/%s/dominant_colors/%s/%s'%(catalog_name,id,image_id)
+api_endpoint = '/v1/catalog/%s/text_search'%(catalog_name)
 
 url = urljoin(api_gateway_url,api_endpoint)
 
-response = requests.get(url,headers=headers)
+params = {}
+params['query_text'] = 'joggers'
+params['max_number_of_results'] = 12
 
+response = requests.get(url,headers=headers,params=params)
+
+print response.url
 print response.status_code
 pprint(response.json())
+
+# Get more info about the relevant results
+for product in response.json()['products']:
+    id = product['id']
+    api_endpoint = '/v1/catalog/%s/products/%s'%(catalog_name,id)
+    url = urljoin(api_gateway_url,api_endpoint)
+    response = requests.get(url,headers=headers)
+    print('%s %s'%(id,response.json()['data']['name']))
 

@@ -26,7 +26,14 @@ params = {}
 params['color_term'] = 'purple'
 
 # Optional parameters
+#params['color_family'] = 'universal'
+#params['color_family'] = 'entrylevel'
 #params['color_family'] = 'full'
+
+# To serch within the pantone family
+#params = {}
+#params['color_term'] = 'PANTONE 19-3336 TCX Sparkling Grape'
+#params['color_family'] = 'pantone'
 
 response = requests.get(url,headers=headers,params=params)
 

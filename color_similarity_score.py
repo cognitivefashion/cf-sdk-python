@@ -26,6 +26,10 @@ params = {}
 params['color_term_1'] = 'red'
 params['color_term_2'] = 'pink'
 
+params = {}
+params['color_term_1'] = 'PANTONE 19-3832 TCX Navy Blue'
+params['color_term_2'] = 'PANTONE 19-4316 TCX Stargazer'
+
 response = requests.get(url,
                         headers=headers,
                         params=params)
