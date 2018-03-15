@@ -35,6 +35,7 @@ print response.url
 print response.status_code
 pprint(response.json())
 
+"""
 # Get more info about the relevant results
 for product in response.json()['products']:
     id = product['id']
@@ -42,4 +43,4 @@ for product in response.json()['products']:
     url = urljoin(api_gateway_url,api_endpoint)
     response = requests.get(url,headers=headers)
     print('%s %s'%(id,response.json()['data']['name']))
-
+"""

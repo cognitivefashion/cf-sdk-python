@@ -1,12 +1,6 @@
 # cf-sdk-python
 
-Python examples using [requests](http://docs.python-requests.org/en/master/) for the [IBM Research Cognitive Fashion APIs](https://cognitivefashion.github.io/slate/).
-
-## Sign up for IBM Research Cognitive Fashion 
-
-https://www.ibm.com/us-en/marketplace/8075
-
-Once you sign up you will get a custom url and an API key.
+Python examples using [requests](http://docs.python-requests.org/en/master/) for the [IBM Research AI for Fashion APIs.](https://cognitivefashion.github.io/slate/).
 
 ## API slate documentation
 
@@ -69,5 +63,4 @@ Run `fashion_quote.py` to ensure that your custom api url and the API key is wor
 
 1. Get visual attributes for an image (`visualattributes.py`).
  
-## [Find out more](http://researcher.ibm.com/researcher/view_group.php?id=7814)
-## [Check the demo](http://cfdemosflagship.mybluemix.net/)
+
