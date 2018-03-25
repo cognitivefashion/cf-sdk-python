@@ -20,7 +20,7 @@ headers = {'X-Api-Key': props['X-Api-Key']}
 # Query parameters.
 params = {}
 # Optional parameters.
-params['fraction_boxes_threshold'] = 0.3
+#params['fraction_boxes_threshold'] = 0.1
 
 # Path parameters
 catalog_name = props['catalog_name']

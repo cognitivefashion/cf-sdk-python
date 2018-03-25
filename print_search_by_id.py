@@ -25,7 +25,7 @@ params['id'] = 'SHRES16AWFSDR9346A'
 params['image_id'] = '1'
 params['print_id'] = '1'
 params['print_count'] = 1
-params['max_number_of_results'] = 5
+params['max_number_of_results'] = 3
 
 # Catalog name.
 catalog_name = props['catalog_name']

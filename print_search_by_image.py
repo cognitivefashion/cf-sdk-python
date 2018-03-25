@@ -22,7 +22,7 @@ headers = {'X-Api-Key': props['X-Api-Key']}
 # Parameters.
 params = {}
 params['print_count'] =  1
-params['max_number_of_results'] = 5
+params['max_number_of_results'] = 3
 #params['image_max_dimension'] = 512
 
 headers['Content-Type'] = 'image/jpeg'
@@ -42,9 +42,3 @@ response = requests.post(url,
 print response.status_code
 pprint(response.json())
 
-# The user uploaded image is avaialbe in the response and also
-# in response.headers['location'].
-image_location = response.json()['image_location']
-image_location = response.headers['location']
-
-print urljoin(api_gateway_url,image_location)

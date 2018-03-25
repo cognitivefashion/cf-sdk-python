@@ -14,21 +14,20 @@ from props import *
 # Replace this with the custom url generated for you.
 api_gateway_url = props['api_gateway_url']
 
-# Pass the api key into the header
-# Replace 'your_api_key' with your API key.
+# Pass the api key into the header.
 headers = {'X-Api-Key': props['X-Api-Key']}
 
+# Query paarameters.
 params = {}
-
 # Optional parameters.
 params['print_count'] = 3
-params['image_max_dimension'] = 512
+#params['image_max_dimension'] = 512
 params['ignore_background'] = 'true'
 params['model'] = 'person_fast'
 params['fraction_boxes_threshold'] = 0.1
-params['ignore_images_without_person'] = 'true'
+#params['ignore_images_without_person'] = 'true'
 
-# Catalog name.
+# Path paarameters.
 catalog_name = props['catalog_name']
 
 api_endpoint = '/v1/catalog/%s/print_search_index'%(catalog_name)
