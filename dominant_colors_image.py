@@ -1,5 +1,5 @@
 #------------------------------------------------------------------------------
-# Dominant Colors for an image. 
+# Dominant Colors for an user uploaded image. 
 # POST /v1/colors/dominant_colors
 #------------------------------------------------------------------------------
 
@@ -14,18 +14,17 @@ from props import *
 # Replace this with the custom url generated for you.
 api_gateway_url = props['api_gateway_url']
 
-# Pass the api key into the header
-# Replace 'your_api_key' with your API key.
+# Pass the api key into the header.
 headers = {'X-Api-Key': props['X-Api-Key']}
 
 params = {}
-
 # Optional parameters.
-params['color_count'] = 3
+params['color_count'] = 5
 params['quality'] = 1
-params['image_max_dimension'] = 256
+#params['image_max_dimension'] = 256
 params['ignore_background'] = 'true'
-params['model'] = 'person_fast'
+params['model'] = 'person_accurate'
+#params['fraction_pixels_threshold'] = 0.1
 
 api_endpoint = '/v1/colors/dominant_colors'
 
@@ -45,8 +44,9 @@ response = requests.post(url,
 params['image_url'] = 'https://vg-images.condecdn.net/image/oDXPOxw65EZ/crop/405'
 response = requests.post(url,
                          headers=headers,
+"""
 
-
+"""
 # OPTION 3 : using multipart
 image_filename = 'test_image_2.jpeg'
 with open(image_filename,'rb') as images_file:
@@ -58,3 +58,23 @@ with open(image_filename,'rb') as images_file:
 
 print response.status_code
 pprint(response.json())
+
+# Human friendly repsonse.
+
+results = response.json()
+
+image_location = '%s?api_key=%s'%(urljoin(api_gateway_url,results['image_location']),
+                                  props['X-Api-Key'])
+print('[original image ] %s'%(image_location))
+
+image_location = '%s&api_key=%s'%(urljoin(api_gateway_url,results['bounding_box']['image_location']),
+                                  props['X-Api-Key'])
+print('[bounding box   ] %s'%(image_location))
+
+for color_info in results['dominant_colors']:
+    print('[dominant colors] %s - %1.2f - %s - %s - %s - %s'%(color_info['hex'],
+                                  color_info['fraction_pixels'],
+                                  color_info['name'],
+                                  color_info['entrylevel_name'],
+                                  color_info['universal_name'],
+                                  color_info['pantone_id']))

@@ -23,10 +23,11 @@ params = {}
 # Optional parameters.
 params['color_count'] = 3
 params['quality'] = 1
-params['image_max_dimension'] = 256
+#params['image_max_dimension'] = 256
 params['ignore_background'] = 'true'
 params['model'] = 'person_fast'
 params['fraction_pixels_threshold'] = 0.1
+params['ignore_images_without_person'] = 'true'
 
 # Catalog name.
 catalog_name = props['catalog_name']

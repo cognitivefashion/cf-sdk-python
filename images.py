@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-# Get the dominant prints for all images in the catalog.
-# GET /v1/catalog/{catalog_name}/dominant_prints
+# Delete product from a catalog.
+# DELETE /v1/catalog/{catalog_name}/products/{id}
 #------------------------------------------------------------------------------
 
 import os
@@ -18,24 +18,35 @@ api_gateway_url = props['api_gateway_url']
 # Replace 'your_api_key' with your API key.
 headers = {'X-Api-Key': props['X-Api-Key']}
 
-params = {}
-params['prints'] = 5
-
 # Catalog name.
 catalog_name = props['catalog_name']
 
-api_endpoint = '/v1/catalog/%s/dominant_prints'%(catalog_name)
+# Product id.
+id = '20DRA16FWCWHL9012909'
+
+# Parameters
+params = {}
+params['api_key'] = props['X-Api-Key']
+
+# API end point.
+api_endpoint = '/v1/images'
 
 url = urljoin(api_gateway_url,api_endpoint)
 
-response = requests.get(url,headers=headers,params=params)
+"""
+response = requests.get(url,
+                        headers=headers,
+                        params=params)
 
 print response.status_code
 pprint(response.json())
+"""
 
-# Here is how you can serve the print swatches
-results = response.json()
-for print_info in results['dominant_prints']:
-    print_swatch = '%s&api_key=%s'%(urljoin(api_gateway_url,print_info['image_location']),
-                                    props['X-Api-Key'])
-    print('[print swatch] %s'%(print_swatch)) 
+headers['Content-Type'] = 'image/jpeg'
+response = requests.post(url,
+                        headers=headers,
+                        params=params,
+                        data=open('test_image_1.jpeg','rb'))
+
+print response.status_code
+print response.headers['location']

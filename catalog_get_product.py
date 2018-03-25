@@ -34,3 +34,10 @@ response = requests.get(url,headers=headers)
 print response.status_code
 pprint(response.json())
 
+# The local copy of the catalog image can be accessed as
+image_url = response.json()['data']['images']['1']['image_url']
+image_filename = response.json()['data']['images']['1']['image_filename']
+
+print urljoin(api_gateway_url,
+              '/v1/catalog/%s/images/%s'%(catalog_name,image_filename))
+              

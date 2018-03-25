@@ -26,6 +26,7 @@ params['image_max_dimension'] = 512
 params['ignore_background'] = 'true'
 params['model'] = 'person_fast'
 params['fraction_boxes_threshold'] = 0.1
+params['ignore_images_without_person'] = 'true'
 
 # Catalog name.
 catalog_name = props['catalog_name']

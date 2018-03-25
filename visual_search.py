@@ -41,6 +41,13 @@ response = requests.post(url,
 print response.status_code
 pprint(response.json())
 
+# The user uploaded image is avaialbe in the response and also
+# in response.headers['location'].
+image_location = response.json()['image_location']
+image_location = response.headers['location']
+
+print urljoin(api_gateway_url,image_location)
+
 # List the relevant images
 for product in response.json()['products']:
     id = product['id']
@@ -51,4 +58,6 @@ for product in response.json()['products']:
     response = requests.get(url,headers=headers)
     image_url = response.json()['data']['images'][image_id]['image_url']
     print('%s %s %1.2f %s'%(id,image_id,score,image_url))
+
+
 

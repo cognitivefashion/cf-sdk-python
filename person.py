@@ -14,15 +14,13 @@ from props import *
 # Replace this with the custom url generated for you.
 api_gateway_url = props['api_gateway_url']
 
-# Pass the api key into the header
-# Replace 'your_api_key' with your API key.
+# Pass the api key into the header.
 headers = {'X-Api-Key': props['X-Api-Key']}
 
 params = {}
-
 # Optional parameters.
-#params['model'] = 'fast' # default
-params['model'] = 'accurate'
+params['model'] = 'fast' # default
+#params['model'] = 'accurate'
 
 api_endpoint = '/v1/person'
 
@@ -35,7 +33,7 @@ headers['Content-Type'] = 'image/jpeg'
 response = requests.post(url,
                          headers=headers,
                          params=params,
-                         data=open('test_image_11.jpg','rb'))
+                         data=open('test_image_3.jpeg','rb'))
 
 """
 # OPTION 2 : Pass the image url
@@ -57,3 +55,10 @@ with open(image_filename,'rb') as images_file:
 
 print response.status_code
 pprint(response.json())
+
+# The user uploaded image is avaialbe in the response and also
+# in response.headers['location'].
+image_location = response.json()['image_location']
+image_location = response.headers['location']
+
+print urljoin(api_gateway_url,image_location)

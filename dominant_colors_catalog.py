@@ -19,7 +19,7 @@ api_gateway_url = props['api_gateway_url']
 headers = {'X-Api-Key': props['X-Api-Key']}
 
 params = {}
-params['colors'] = 20
+params['colors'] = 5
 
 # Catalog name.
 catalog_name = props['catalog_name']

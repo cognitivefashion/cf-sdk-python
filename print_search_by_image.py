@@ -42,3 +42,9 @@ response = requests.post(url,
 print response.status_code
 pprint(response.json())
 
+# The user uploaded image is avaialbe in the response and also
+# in response.headers['location'].
+image_location = response.json()['image_location']
+image_location = response.headers['location']
+
+print urljoin(api_gateway_url,image_location)
