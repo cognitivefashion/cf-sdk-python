@@ -22,10 +22,16 @@ api_endpoint = '/v1/colors/color_terms'
 
 url = urljoin(api_gateway_url,api_endpoint)
 
+# Parameters - required
 params = {}
 params['r'] = 106
 params['g'] = 103
 params['b'] = 95
+
+# Parameters - optional
+params['color_count'] = 3
+#params['color_family'] = 'full'
+#params['color_family'] = 'pantone'
 
 response = requests.get(url,headers=headers,params=params)
 
