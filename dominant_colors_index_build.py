@@ -21,9 +21,10 @@ headers = {'X-Api-Key': props['X-Api-Key']}
 params = {}
 
 # Optional parameters.
-params['colors'] = 20
+params['colors'] = 9
 params['max_colors_per_image'] = 2
 params['fraction_pixels_threshold'] = 0.1
+params['embedding'] = 'true'
 
 # Catalog name.
 catalog_name = props['catalog_name']
