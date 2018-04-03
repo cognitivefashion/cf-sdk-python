@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-# Person detection.
-# POST /v1/person
+# Detect apparel,accessories and footwear in a fashion image.
+# POST /v1/detect_apparel
 #------------------------------------------------------------------------------
 
 import os
@@ -19,10 +19,9 @@ headers = {'X-Api-Key': props['X-Api-Key']}
 
 params = {}
 # Optional parameters.
-params['model'] = 'fast' # default
-#params['model'] = 'accurate'
+params['threshold'] = 0.2
 
-api_endpoint = '/v1/person'
+api_endpoint = '/v1/detect_apparel'
 
 url = urljoin(api_gateway_url,api_endpoint)
 
@@ -33,7 +32,7 @@ headers['Content-Type'] = 'image/jpeg'
 response = requests.post(url,
                          headers=headers,
                          params=params,
-                         data=open('test_image_3.jpeg','rb'))
+                         data=open('test_image_2.jpeg','rb'))
 
 """
 # OPTION 2 : Pass the image url
@@ -56,9 +55,18 @@ with open(image_filename,'rb') as images_file:
 print response.status_code
 pprint(response.json())
 
-# The user uploaded image is avaialbe in the response and also
-# in response.headers['location'].
-image_location = response.json()['image_location']
-image_location = response.headers['location']
 
-print urljoin(api_gateway_url,image_location)
+# Human friendly repsonse.
+
+results = response.json()
+
+image_location = '%s?api_key=%s'%(urljoin(api_gateway_url,results['image_location']),
+                                  props['X-Api-Key'])
+print('[original image] %s'%(image_location))
+
+for entity in results['entities']:
+    entity_swatch = '%s&api_key=%s'%(urljoin(api_gateway_url,entity['image_location']),
+                                    props['X-Api-Key'])
+    print('[%1.2f][%s][%s]'%(entity['category']['score'][entity['category']['value']],
+                                     entity['category']['value'],
+                                     entity_swatch)) 
