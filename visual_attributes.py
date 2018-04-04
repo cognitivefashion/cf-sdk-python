@@ -1,6 +1,6 @@
 #------------------------------------------------------------------------------
-# Get visual attributes for a given iconic image.
-# GET /v1/visualattributes/iconic
+# Get visual attributes for a given iconic/non-iconic image.
+# GET /v1/visualattributes
 #------------------------------------------------------------------------------
 
 import os
@@ -20,8 +20,12 @@ headers = {'X-Api-Key': props['X-Api-Key']}
 
 # Parameters.
 params = {}
+# Optional parameters.
+params['threshold'] = 0.2
+#params['image_type'] = 'iconic'
+params['image_type'] = 'non-iconic'
 
-api_endpoint = '/v1/visualattributes/iconic'
+api_endpoint = '/v1/visualattributes'
 
 url = urljoin(api_gateway_url,api_endpoint)
 
@@ -32,7 +36,7 @@ headers['Content-Type'] = 'image/jpeg'
 response = requests.post(url,
                          headers=headers,
                          params=params,
-                         data=open('test_image_1.jpeg','rb'))
+                         data=open('test_image_2.jpeg','rb'))
 
 """            
 # OPTION 2 : Pass the image url
@@ -55,9 +59,22 @@ with open(image_filename,'rb') as images_file:
 print response.status_code
 pprint(response.json())
 
-# The user uploaded image is avaialbe in the response and also
-# in response.headers['location'].
-image_location = response.json()['image_location']
-image_location = response.headers['location']
+# Human friendly repsonse.
 
-print urljoin(api_gateway_url,image_location)
+results = response.json()
+
+image_location = '%s?api_key=%s'%(urljoin(api_gateway_url,results['image_location']),
+                                  props['X-Api-Key'])
+print('[original image] %s'%(image_location))
+
+for entity in results['entities']:
+    entity_swatch = '%s&api_key=%s'%(urljoin(api_gateway_url,entity['image_location']),
+                                    props['X-Api-Key'])
+    print('[%1.2f][%s][%s]'%(entity['category']['score'][entity['category']['value']],
+                                     entity['category']['value'],
+                                     entity_swatch)) 
+    if 'attributes' in entity:
+        for attribute in entity['attributes']:
+            print('[%1.2f][%s][%s]'%(entity['attributes'][attribute]['score'][entity['attributes'][attribute]['value']],
+                                     attribute,
+                                     entity['attributes'][attribute]['value']))
