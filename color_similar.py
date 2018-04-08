@@ -25,17 +25,22 @@ params = {}
 params['color_term'] = 'purple'
 
 # Optional parameters
-params['color_count'] = 3
+params['color_count'] = 5
 #params['color_family'] = 'universal'
 #params['color_family'] = 'entrylevel'
 #params['color_family'] = 'full'
 
 # To serch within the pantone family
-#params['color_term'] = 'pantone 19-3336 tcx sparkling grape'
-#params['color_family'] = 'pantone'
+params['color_term'] = 'pantone 19-3336 tcx sparkling grape'
+params['color_family'] = 'pantone'
 
 response = requests.get(url,headers=headers,params=params)
 
 print response.status_code
 pprint(response.json())
+
+results = response.json()
+
+for color_info in results['similar_colors']:
+    print('%s'%(color_info['pantone_id']))
 

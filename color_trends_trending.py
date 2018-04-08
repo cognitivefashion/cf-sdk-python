@@ -19,7 +19,9 @@ api_gateway_url = props['api_gateway_url']
 headers = {'X-Api-Key': props['X-Api-Key']}
 
 params = {}
-params['colors'] = 5
+params['colors'] = 20
+# Optional
+#params['catalog_name'] = 'vogue-autumn-winter-2017'
 
 report_name = 'vogue-autumn-winter'
 
@@ -32,6 +34,15 @@ response = requests.get(url,headers=headers,params=params)
 print response.status_code
 pprint(response.json())
 
-for color in response.json()['colors']:
-    print color['name']
+# Print the colors.
+results = response.json()
+years = ['2013','2014','2015','2016','2017']
+for color_info in results['colors']:
+    print('popularity [%s] [%+1.2f] trend [%s] [%+1.2f] [%s]'%(
+                          ' '.join(['%1.2f'%(color_info['popularity_by_id']['%s-%s'%(report_name,year)]) for year in years]),
+                          color_info['popularity_forecast']['mean'],
+                          ' '.join(['%+1.2f'%(color_info['trend_by_id']['%s-%s'%(report_name,year)]) for year in years]),
+                          color_info['trend_forecast']['mean'],
+                          color_info['pantone_id']))
+
 
