@@ -21,7 +21,7 @@ headers = {'X-Api-Key': props['X-Api-Key']}
 # Parameters.
 params = {}
 # Optional parameters.
-params['threshold'] = 0.2
+params['threshold'] = 0.32
 #params['image_type'] = 'iconic'
 params['image_type'] = 'non-iconic'
 
