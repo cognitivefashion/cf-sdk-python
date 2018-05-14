@@ -22,8 +22,8 @@ headers = {'X-Api-Key': props['X-Api-Key']}
 params = {}
 # Optional parameters.
 params['threshold'] = 0.2
-#params['image_type'] = 'iconic'
-params['image_type'] = 'non-iconic'
+params['image_type'] = 'iconic'
+#params['image_type'] = 'non-iconic'
 
 api_endpoint = '/v1/visualattributes'
 

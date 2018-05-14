@@ -23,8 +23,8 @@ headers = {'X-Api-Key': props['X-Api-Key']}
 # Catalog name.
 catalog_name = props['catalog_name']
 
-id ='109FA16AWWWSG9G06Y05'
-image_id = '1'
+id ='LPJNA16AMDMTE91662'
+image_id = '2'
 
 api_endpoint = '/v1/catalog/%s/visual_browse/%s/%s'%(catalog_name,id,image_id)
 
@@ -33,11 +33,15 @@ url = urljoin(api_gateway_url,api_endpoint)
 params = {}
 # Optional parameters.
 params['max_number_of_results'] = 5
+#params['use_cache'] = 'false'
+#params['sort_option'] = 'apparel_similarity'
 
 response = requests.get(url,headers=headers,params=params)
 
+print response.url
 print response.status_code
 pprint(response.json())
+
 
 # List the relevant images
 for product in response.json()['products']:
@@ -49,4 +53,3 @@ for product in response.json()['products']:
     response = requests.get(url,headers=headers)
     image_url = response.json()['data']['images'][image_id]['image_url']
     print('%s %s %1.2f %s'%(id,image_id,score,image_url))
-

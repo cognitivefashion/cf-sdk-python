@@ -23,8 +23,9 @@ params['color_count'] = 5
 params['quality'] = 1
 #params['image_max_dimension'] = 256
 params['ignore_background'] = 'true'
-params['model'] = 'person_accurate'
-#params['fraction_pixels_threshold'] = 0.1
+#params['model'] = 'person_accurate'
+params['model'] = 'person_fast'
+params['fraction_pixels_threshold'] = 0.1
 
 api_endpoint = '/v1/colors/dominant_colors'
 
@@ -39,22 +40,24 @@ response = requests.post(url,
                          params=params,
                          data=open('test_image_2.jpeg','rb'))
 
-"""          
+       
 # OPTION 2 : Pass the image url
+""""
 params['image_url'] = 'https://vg-images.condecdn.net/image/oDXPOxw65EZ/crop/405'
 response = requests.post(url,
                          headers=headers,
 """
 
-"""
+
 # OPTION 3 : using multipart
+"""
 image_filename = 'test_image_2.jpeg'
 with open(image_filename,'rb') as images_file:
     response = requests.post(url,
                              headers=headers,
                              params=params,
                              files={'image': (image_filename,images_file,'image/jpeg')})   
-""" 
+"""
 
 print response.status_code
 pprint(response.json())
