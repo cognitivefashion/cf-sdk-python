@@ -10,6 +10,10 @@ props['api_gateway_url'] = 'http://localhost:9080/'
 props['X-Api-Key'] = 'your_api_key'
 props['X-Api-Key'] = 'cognitive_fAshIon_developer'
 
+# To prevent the service from accessing your data for further API improvements,
+# set the X-Data-Collection-Opt-Out header parameter to true.
+props['X-Data-Collection-Opt-Out'] = 'false'
+
 # You need to give a name to your catalog.
 # The sample scripts read the json files from this folder.
 props['catalog_name'] = 'sample_catalog'
