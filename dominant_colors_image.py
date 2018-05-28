@@ -26,6 +26,8 @@ params['ignore_background'] = 'true'
 #params['model'] = 'person_accurate'
 params['model'] = 'person_fast'
 params['fraction_pixels_threshold'] = 0.1
+params['color_name_method'] = 'accurate'
+#params['color_name_method'] = 'fast'
 
 api_endpoint = '/v1/colors/dominant_colors'
 

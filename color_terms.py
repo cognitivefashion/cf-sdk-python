@@ -30,10 +30,18 @@ params['b'] = 95
 
 # Parameters - optional
 params['color_count'] = 3
-#params['color_family'] = 'full'
+params['color_family'] = 'full'
+#params['color_family'] = 'universal'
+#params['color_family'] = 'entrylevel'
 #params['color_family'] = 'pantone'
+params['method'] = 'accurate'
+#params['method'] = 'fast'
 
-response = requests.get(url,headers=headers,params=params)
+response = requests.get(url,
+                        headers=headers,
+                        params=params)
 
 print response.status_code
 pprint(response.json())
+
+
