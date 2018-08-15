@@ -61,6 +61,6 @@ Run `fashion_quote.py` to ensure that your custom api url and the API key is wor
 
 ## Visual Attributes
 
-1. Get visual attributes for an image (`visualattributes.py`).
+1. Get visual attributes for an image (`visual_attributes.py`).
  
 
