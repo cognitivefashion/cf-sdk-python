@@ -22,7 +22,7 @@ headers = {'X-Api-Key': props['X-Api-Key']}
 catalog_name = props['catalog_name']
 
 # Product id.
-id = 'ABOFA15AWWWSW1149401'
+id = 'LPJNA16AMDMTE91662'
 
 # API end point,
 api_endpoint = '/v1/catalog/%s/products/%s'%(catalog_name,id)
